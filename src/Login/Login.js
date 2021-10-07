@@ -89,7 +89,7 @@ const Login = () => {
       <div className="login-box d-flex align-items-center justify-content-center">
         <div className="login">
           <div className="login-box">
-            <h2 className="text-info">Pease Login</h2>
+            <h2 className="text-info">Please Login</h2>
             <p className="text-danger">{error}</p>
             <form onSubmit={handleLogin}>
               <input
